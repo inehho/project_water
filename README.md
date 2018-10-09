@@ -1,17 +1,11 @@
 # project_water
 This is the repository for Team This
 
-Thurs team updates - Tom
-Changes: 
+Cholera, Water Safety, and Population:
+An Analysis of Bordering Countries in West Africa and Southeast Asia
 
-Renamed column headers in WHO data before merge to make resulting DF less confusing. 
-Merged dataframes on year and country to eliminate years for which there was no water data (see Issues)
-Used .loc to filter out each country 
-Started simple plots for each country (just cholera cases by year) 
+Using two sets of bordering countries (Myanmar and Thailand in SE Asia, and Niger and Nigeria in West Africa):
 
-ISSUES: It looks like some data got lost in the merge – need to review. (May be some mismatch between cholera data water data – we can look more closely at what got lost in the merge)
-
-To do: 
-Figure out data merge issue
-Plan subplots 
-
+Is there a correlation between Cholera rates between bordering countries?
+Is there a trend of Cholera incidence related to water resources indicators?
+Is there a correlation between water resources indicators and Cholera rates?
